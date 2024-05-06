@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuceta - Cadastro</title>
+    <link rel="shortcut icon" href="img/LogoImg.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/CadSty.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="title-text">
+            <div class="title login">
+                Entrar
+            </div>
+            <div class="title signup">
+                Cadastre-se
+            </div>
+        </div>
+        <div class="form-container">
+            <div class="slide-controls">
+                <input type="radio" name="slide" id="login" checked>
+                <input type="radio" name="slide" id="signup">
+                <label for="login" class="slide login">Login</label>
+                <label for="signup" class="slide signup">Cadastro</label>
+                <div class="slider-tab"></div>
+            </div>
+            <div class="form-inner">
+                <form action="#" class="login">
+                    <div class="field">
+                        <input type="text" placeholder="E-mail" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Senha" required>
+                    </div>
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Entrar">
+                    </div>
+                    <div class="signup-link">
+                        Voltar a <a href="Index.html">Página Principal</a>
+                    </div>
+                </form>
+                <form action="#" class="signup">
+                    <div class="field">
+                        <input type="text" placeholder="E-mail" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Senha" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Confirme a senha" required>
+                    </div>
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Cadastrar-se">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="Script/CadScript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/RecStyle.css">
+    <title>Recipe Page</title>
+</head>
+
+<body>
+
+
+    <section class="container">
+        <!-- HEADER IMAGE -->
+        <figure>
+            <img class="header-img" src="./assets/images/image-omelette.jpeg" alt="omelette photo">
+        </figure>
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+            <h1 class="content-title">Digite seu Titulo abaixo!</h1>
+            <input type="text">
+
+            <!-- PREPARATION TIME -->
+            <article class="preparation">
+                <h2>Tempo de Preparo</h2>
+                <ul id="preparationTimeList">
+                    <li>
+                        <Strong>Total: </Strong><input type="text" placeholder="Tempo Total">
+                    </li>
+                    <li>
+                        <strong>Preparação: </strong><input type="text" placeholder="Tempo de Preparo">
+                    </li>
+                    <li>
+                        <Strong>Cozinhando: </Strong><input type="text" placeholder="Tempo de Cozimento">
+                    </li>
+                </ul>
+            </article>
+
+            <!-- INGREDIENTS -->
+            <article class="ingredients">
+                <div class="ing">
+                    <h2>Ingredientes</h2> <button class="mais icon-button" id="addIngredientButton"><ion-icon name="add-circle-outline"></ion-icon></button>
+
+                </div>
+
+                <ul id="ingredientsList">
+                    <li><input type="text" placeholder="Ingrediente 1"></li>
+                    <li><input type="text" placeholder="Ingrediente 2"></li>
+                    <li><input type="text" placeholder="Ingrediente 3"></li>
+                    <li><input type="text" placeholder="Ingrediente 4"></li>
+                    <li><input type="text" placeholder="Ingrediente 5" id="lastIngredient"></li>
+                </ul>
+            </article>
+            <hr>
+            <!-- INSTRUCTIONS -->
+            <article class="instructions">
+                <h2>Instruções</h2>
+                <ol>
+                    <!-- Instructions unchanged -->
+                </ol>
+            </article>
+            <hr>
+            <!-- NUTRITION TABLE -->
+            <article class="nutrition">
+                <p>sla</p>
+            </article>
+        </main>
+    </section>
+    <script>
+       
+    </script>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="Script/RecScript.js"></script>
+</html>
